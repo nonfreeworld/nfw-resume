@@ -21,11 +21,6 @@ email = "nonfreeworld@inbox.ru"
 ## Extras
 [params.extra]
 copyright = "© 2024. Mikhail P."
-poweredby = true
-highlightjs = true
-socialmarkup = true
-toc = true
-displayrssicon = true
 
 ## Main Menu
 [[menu.main]]
@@ -33,8 +28,3 @@ name = "posts"
 weight = 100
 identifier = "posts"
 url = "posts/"
-[[menu.main]]
-name = "about"
-identifier = "about"
-weight = 200
-url = "about/"
