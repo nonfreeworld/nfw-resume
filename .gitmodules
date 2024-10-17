@@ -1,0 +1,12 @@
+[submodule "hugo-xterm"]
+	path = hugo-xterm
+	url = https://github.com/manid2/hugo-xterm
+[submodule "themes/hugo-xterm"]
+	path = themes/hugo-xterm
+	url = https://github.com/manid2/hugo-xterm
+[submodule "themes/spectral"]
+	path = themes/spectral
+	url = https://github.com/sbruder/spectral.git
+[submodule "themes/hugo-goa"]
+	path = themes/hugo-goa
+	url = https://github.com/shenoydotme/hugo-goa.git

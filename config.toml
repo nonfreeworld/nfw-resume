@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My test site for ci/cd practice'
+theme = "hugo-goa"
+
+[params]
+author = "Mikhail Pakharev"
+#authorimage = "headshot.png"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,hugo,devops, linux"
+
+## Social Accounts
+[params.social]
+github = "nonfreeworld"
+telegram = "@Mikhail_Pakharev"
+email = "nonfreeworld@inbox.ru"
+
+## Extras
+[params.extra]
+copyright = "© 2024. Mikhail P."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+name = "posts"
+weight = 100
+identifier = "posts"
+url = "posts/"
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "about/"
