@@ -1,4 +1,50 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://nonfreeworld.github.io/'
+author = "Mikhail Pakharev"
+title = "Mikhail Pakharev"
 languageCode = 'en-us'
-title = 'My test site for ci/cd practice'
 theme = "hugo-goa"
+
+## Site Settings
+[params]
+author = "Mikhail Pakharev"
+#intro = "Innovative Tech Visionary"
+#description = "Leading the charge at [Incircle Media](https://incirclemedia.com)"
+#authorimage = "headshot.png"
+#dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+#description = "Simple minimalist theme"
+keywords = "minimalist,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "nonfreeworld"
+telegram = "@Mikhail_Pakharev"
+email = "nonfreeworld@inbox.ru"
+
+## Extras
+[params.extra]
+copyright = "© 2024. Mikhail Pakharev. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+name = "posts"
+weight = 100
+identifier = "posts"
+url = "posts/"
+#[[menu.main]]
+#name = "about"
+#identifier = "about"
+#weight = 200
+#url = "about/"
+#[[menu.main]]
+#name = "projects"
+#identifier = "projects"
+#weight = 300
+#url = "projects/"
