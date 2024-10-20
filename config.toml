@@ -2,29 +2,3 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My test site for ci/cd practice'
 theme = "gohugo-theme-ed"
-
-[params]
-author = "Mikhail Pakharev"
-#authorimage = "headshot.png"
-
-## Site Meta Settings
-[params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,hugo,devops, linux"
-
-## Social Accounts
-[params.social]
-github = "nonfreeworld"
-telegram = "@Mikhail_Pakharev"
-email = "nonfreeworld@inbox.ru"
-
-## Extras
-[params.extra]
-copyright = "© 2024. Mikhail P."
-
-## Main Menu
-[[menu.main]]
-name = "posts"
-weight = 100
-identifier = "posts"
-url = "posts/"
