@@ -1,4 +1,4 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My test site for ci/cd practice'
-theme = "gohugo-theme-ed"
+theme = "hugo-goa"
