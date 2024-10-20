@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My test site for ci/cd practice'
-theme = "hugo-goa"
+theme = "gohugo-theme-ed"
 
 [params]
 author = "Mikhail Pakharev"
